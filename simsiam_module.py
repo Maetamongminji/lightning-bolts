@@ -10,6 +10,7 @@ Original file is located at
 from argparse import ArgumentParser
 
 import torch
+import torchvision
 from pytorch_lightning import LightningModule, Trainer, seed_everything
 from pytorch_lightning.callbacks import LearningRateMonitor, ModelCheckpoint
 from torch.nn import functional as F
